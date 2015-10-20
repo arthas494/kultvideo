@@ -4,6 +4,65 @@
  */
 /* FONT PATH
  * -------------------------- */
+
+@font-face {
+  font-family: 'MachineC';
+  src: url('../fonts/MachineC.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.mc
+{
+	font-family: 'MachineC';
+	font-weight:normal;
+	font-style:normal ;
+}
+
+@font-face {
+    font-family: "FuturaC";
+    src: url("../fonts/FuturaCondensedRegular/FuturaCondensedRegular.eot");
+    src: url("../fonts/FuturaCondensedRegular/FuturaCondensedRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/FuturaCondensedRegular/FuturaCondensedRegular.woff") format("woff"),
+    url("../fonts/FuturaCondensedRegular/FuturaCondensedRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+.fc
+{
+	font-family: 'FuturaC';
+	font-weight:normal;
+	font-style:normal ;
+}
+ 
+ 
+/* font-family: "MyriadProRegular"; */
+@font-face {
+    font-family: "MyriadProRegular";
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+.mp
+{
+	font-family: 'MyriadProRegular';
+	font-weight:normal;
+	font-style:normal ;
+}
+ 
+ 
+ hr {
+    border: none; /* Убираем границу */
+    background-color: white; /* Цвет линии */
+    color: white; /* Цвет линии для IE6-7 */
+    height: 4px; /* Толщина линии */
+	width: 200px; /* Толщина линии */
+   }
+ 
  i
 @font-face {
   font-family: 'FontAwesome';
@@ -12,6 +71,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 i{
 	font-family: 'FontAwesome';
 	font-weight:normal;

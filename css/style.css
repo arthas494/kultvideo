@@ -1,4 +1,4 @@
-@charset "utf-8";
+1@charset "utf-8";
 /* CSS Document */
 
 /* Float Elements 
@@ -92,14 +92,15 @@ p{
 .header{
 	text-align:center;
 	background:url(../img/pw_maze_black_2X.png) left top repeat;
-	padding:180px 0;
+	padding:100px 0;
 }
 .logo{
 	width:250px;
 	margin:0 auto 35px;
 }
 .header h1{
-	font-family: 'Montserrat',sans-serif;
+	/*font-family: 'Montserrat',sans-serif;*/
+	font-family: 'MachineC',sans-serif;
 	font-size:50px;
 	font-weight:400;
 	letter-spacing: -1px;
@@ -127,6 +128,30 @@ p{
 .we-create li:first-child{
 	background:none;
 }
+
+
+.we-create-fc{
+	padding:0;
+	margin:35px 0 55px;
+}
+.wp-pic-fc{
+	margin-bottom:20px;
+}
+.we-create-fc li{
+	display:inline-block;
+	font-family: 'FuturaC',sans-serif;
+	/*font-size:32px;*/
+	/*color: #bcbcbc;*/
+	color: white;
+	text-transform: uppercase;
+	font-weight: 400;
+	margin:0 5px 0 0;
+	padding:0 0 0 15px;
+}
+.we-create-fc li:first-child{
+	background:none;
+}
+
 
 .start-button {
 	padding-left: 0px;
@@ -221,7 +246,9 @@ color: #fff;
 }
 .service-list-col1{
 	float:left;
-	width:60px;
+	width:140px;
+	margin:10px;
+	vertical-align:middle;
 }
 .service-list-col1 i{
 	font-style:normal;
@@ -261,8 +288,9 @@ color: #fff;
 	padding-bottom:35px;
 }
 .featured-box-col1{
-	width:60px;
+	width:150px;
 	float:left;
+	margin:10px;
 }
 .featured-box-col1 i{
 	display:block;
@@ -272,7 +300,9 @@ color: #fff;
 	color:#777777;
 	font-style:normal;
 }
-.featured-box-col2{ overflow:hidden;}
+.featured-box-col2{
+	overflow:hidden;
+	}
 .featured-box.magic{
 	background:url(../img/magic.png) left top no-repeat;
 }
